@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Site</title>
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+    <main class="ios-app">
+
+  <div class="search-bar">
+    <input id="Inpt" type="text" placeholder="Search city">
+    <button onclick="Search()">⌕</button>
+  </div>
+
+  <section class="current">
+    <h1 id="City">Indore</h1>
+    <div class="temp-row">
+      <img id="Icon">
+      <span id="Temp">--°</span>
+    </div>
+    <p id="Description">---</p>
+  </section>
+
+  <section class="stats">
+    <div>
+      <span>FEELS LIKE</span>
+      <p id="Feels">--°</p>
+    </div>
+    <div>
+      <span>HUMIDITY</span>
+      <p id="Humidity">--%</p>
+    </div>
+    <div>
+      <span>WIND</span>
+      <p id="Wind">-- km/h</p>
+    </div>
+    <div>
+      <span>PRESSURE</span>
+      <p id="Pressure">-- hPa</p>
+    </div>
+  </section>
+
+</main>
+
+
+
+</body>
+    <script src="Main.js"></script>
+</html>
